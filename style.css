@@ -1,0 +1,54 @@
+body {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 50px;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(9, 74, 12);
+}
+
+.timer, .correctWords {
+    border-radius: 40px;
+    border: 3px solid rgb(15, 131, 11);
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.phraseInput, .phraseDisplay {
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    width: 430px;
+    height: 120px;
+    resize: none;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    background-color: white;
+    border: 3px solid rgb(15, 131, 11);
+}
+
+.correctChar {
+    color: green;
+    
+  }
+
+.incorrectChar {
+    color: red;
+    text-decoration: underline;
+  }
